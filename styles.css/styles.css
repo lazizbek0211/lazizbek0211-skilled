@@ -38,8 +38,9 @@ body{
     line-height: 22px;
     font-family: "Plus Jakarta Sans","Arial","sans-serif";
     color:var(--bold-text);
-    background-color:#f2f2f2;
+    background-color:#fff;
     flex-wrap: nowrap;
+    overflow-x: hidden;
 }
 img{
     height:auto;
@@ -72,12 +73,13 @@ img{
     padding-top: 24px;
     background-image: url(..//img/girl.svg);
     background-repeat: no-repeat;
-    background-position:953px -150px;
+    background-position: calc(50% + 590px) -150px;
 }
 
 .site-header__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .site-header__logo-link {
     display: inline-block;
@@ -103,7 +105,7 @@ img{
     display: flex;
 }
 .site-content__theme {
-    padding-top: 160px;
+    padding-top: 172px;
     padding-bottom: 29px;
     margin: 0;
     font-weight:800px;
@@ -129,8 +131,8 @@ img{
 }
 .small-card {
     position: absolute;
-    top: 500px;
-    left: 900px;
+    top: 507px;
+    left: calc(50% + 63px);
     background: #FFFFFF;
     box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
     border-radius: 15px;
@@ -141,8 +143,8 @@ img{
 .member{
     position: absolute;
     width: 155px;
-    top: 250px;
-    left: 1295px;
+    top: 268px;
+    left:calc(50% + 462px);
 }
 .smal-card__text {
     margin: 0;
@@ -176,8 +178,9 @@ img{
     width: 350px;
     background-color:var(--main-text-color);
     margin-bottom: 80px;
-    padding: 64px 32px 40px 32px;
+    padding: 81px 32px 40px 32px;
     border-radius: 15px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.04);
 }
 .list__item:not(:nth-child(3n)){
     margin-right: 30px;
